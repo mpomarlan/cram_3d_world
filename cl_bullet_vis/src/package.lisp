@@ -36,6 +36,7 @@
   (:import-from #:physics-utils
                 event-queue post-event get-next-event)
   (:export bullet-world-window world camera-transform
+           init-glut
            closed draw close-window
            hidden show-window hide-window
            init-camera set-camera with-gl-context
